@@ -2,7 +2,7 @@
 
 
 ```
- repo sync  -f --force-sync --no-clone-bundle --no-tags -j$(nproc --all)
+repo sync -f --force-sync --no-clone-bundle --no-tags -j$(nproc --all)
 ```
 ###  Copy roomservice to
 ```
